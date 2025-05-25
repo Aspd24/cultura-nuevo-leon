@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura de Nuevo León: Monterrey vs Montemorelos</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Cultura.html">Inicio</a></li>
+                <li><a href="monterrey.html">Monterrey</a></li>
+                <li><a href="montemorelos.html">Montemorelos</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Portada -->
+    <section id="inicio" class="hero">
+        <h1></h1>
+        <p>Explora el contraste entre la modernidad de Monterrey y la tradición de Montemorelos</p>
+    </section>
+
+    <!-- Sección de Ciudades como Tarjetas Clickables -->
+    <section class="city-cards">
+        <div class="city-card" onclick="location.href='monterrey.html'">
+            <img src="IMAG/BA.jpg" alt="Monterrey">
+            <div class="city-info">
+                <h2>Monterrey</h2>
+                <p>La capital industrial del norte</p>
+                <button>Explorar</button>
+            </div>
+        </div>
+
+        <div class="city-card" onclick="location.href='montemorelos.html'">
+            <img src="IMAG/MO.jpg" alt="Montemorelos">
+            <div class="city-info">
+                <h2>Montemorelos</h2>
+                <p>El corazón citrícola de Nuevo León</p>
+                <button>Explorar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Noticias -->
+    <section id="noticias">
+        <h2>Noticias Culturales</h2>
+        <article>
+            <h3>Festival Santa Lucía 2023</h3>
+            <p>Evento artístico en Monterrey con proyecciones internacionales.</p>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <p>© 2023 - Cultura Nuevo León</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
